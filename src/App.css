@@ -1,1 +1,16 @@
 /* add your styles here */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .image-container {
+    width: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
